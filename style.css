@@ -1,0 +1,30 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+section.hero{
+    background-image: url(images/main-image.png);
+    background-size: cover;
+}
+
+.hero{
+    height: 700px;
+}
+
+.col-lg-12.heading{
+    margin-top: 25%;
+    margin-bottom: 20px;
+}
+
+
+img.img {
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+@media(max-width:320px){
+    .row.bg-white.p-2.rounded-2{
+        background-color: transparent;
+    }
+}
